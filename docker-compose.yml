@@ -7,7 +7,7 @@ services:
     ports:
       - 9001:9001
     volumes:
-      ./conf.d:/etc/nginx/conf.d
+      - ./conf.d:/etc/nginx/conf.d
 
 networks:
   proxy:
