@@ -6,6 +6,7 @@ services:
       proxy:
     ports:
       - 9001:9001
+      - 8888:8888
     volumes:
       - ./conf.d:/etc/nginx/conf.d
 
